@@ -1,5 +1,5 @@
 angular.module('app.directives', [])
 
-.directive('blankDirectives', [function(){
+.directive('blankDirective', [function(){
 
 }]);
