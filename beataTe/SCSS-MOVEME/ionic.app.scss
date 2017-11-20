@@ -1,0 +1,44 @@
+$royal: #29160F;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.error-box {
+	padding: 10px;
+	border: 1px solid darken($assertive, 10%);
+	background-color: $assertive;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	p {
+		color: white;
+		margin: 0px;
+	}
+	
+}
+.center-form {
+	width: 290px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.bottom-form {
+	position: absolute;
+	bottom: 0px;
+	display: block;
+	width: 100%;
+	background-color: white;
+	button {
+		margin: 0px !important;
+	}
+	
+}
+.coffee-background {
+	.item-content {
+		background-color: #29160F;
+	}
+	
+}
+ion-view,.pane,.view {
+	background-color: #29160F;
+}
+

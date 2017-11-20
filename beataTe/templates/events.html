@@ -1,0 +1,40 @@
+<ion-view title="Events" id="page26">
+  <ion-content padding="false" class="has-header">
+    <form id="events-form18" class="list">
+      <div class="spacer" style="height: 100px;"></div>
+      <label class="item item-input" id="events-input12">
+        <span class="input-label">Name</span>
+        <input type="text" placeholder="" ng-model="data.name">
+      </label>
+      <label class="item item-input" id="events-input23">
+        <span class="input-label">Phone</span>
+        <input type="tel" placeholder="" ng-model="data.phone">
+      </label>
+      <label class="item item-select" id="events-select116">
+        <span class="input-label">Event</span>
+        <select ng-repeat="day in days" ng-model="data.event">
+          <option></option>
+          <option>{{day.event0}}</option>
+          <option>{{day.event1}}</option>
+          <option>{{day.event2}}</option>
+          <option>{{day.event3}}</option>
+          <option>{{day.event4}}</option>
+          <option>{{day.event5}}</option>
+          <option>{{day.event6}}</option>
+        </select>
+      </label>
+      <label class="item item-select" id="events-select218">
+        <span class="input-label">Main course</span>
+        <select ng-model="data.food">
+          <option></option>
+          <option>Fish</option>
+          <option>Beef</option>
+          <option>Vegetarian</option>
+          <option>Other</option>
+        </select>
+      </label>
+    </form>
+    <a ui-sref="myEvent({&quot;name&quot;:&quot;&quot;+data.name+&quot;&quot;,&quot;phone&quot;:&quot;&quot;+data.phone+&quot;&quot;,&quot;event&quot;:&quot;&quot;+data.event+&quot;&quot;,&quot;food&quot;:&quot;&quot;+data.food+&quot;&quot;})" id="events-button106"
+      class="button button-dark button-block">See your choice</a>
+  </ion-content>
+</ion-view>
