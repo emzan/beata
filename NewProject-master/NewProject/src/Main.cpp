@@ -20,6 +20,8 @@ int main()
 	array[4] = 5;
 	Vector3 vector;
 
+	//ok
+
 	int* hvalue = new int;
 	*hvalue = 5;
 	int* harray = new int[5];
